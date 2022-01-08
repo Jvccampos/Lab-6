@@ -1,5 +1,5 @@
 from unittest import TestCase
-from matrix import Matrix
+from triangles import *
 
 class TestMatrix(TestCase):
     def test_classifica_equilatero(self):

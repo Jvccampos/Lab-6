@@ -17,5 +17,3 @@ def calcula_area (tamanhoLado1, tamanholado2, tamanholado3):
     s = (tamanhoLado1 + tamanholado2 + tamanholado3) / 2
     area = (s*(s-tamanhoLado1)*(s-tamanholado2)*(s-tamanholado3)) ** 0.5
     return round(area,2)
-
-print(calcula_area(10,10,9))
